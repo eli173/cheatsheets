@@ -1,0 +1,65 @@
+
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\begin{document}
+Functions:
+One output for each input (no $y^2=x$ for a function on $x$)
+domain=input
+range=output
+be cautious with denominators
+$f(x)=y=x+2x^2+5$
+write ordered pairs for the graph
+Functional notation: think of like machine
+
+Polynomials:
+x-intercept: solve
+y-intercept:plug in 0 for $x$
+Multiplicity: number of times value appears as root
+Even/odd multiplicity <=> touches/crosses axis
+$(x-r)$ a factor of $P$ iff $P(r)=0$
+Poly of degree $n$ has $n$ roots (real or complex)
+Quad: $ax^2+bx+c$ roots: $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+Conj pairs: if $a+\sqrt{b}$ is a root, so is $a-\sqrt{b}$
+if $a+bi$, then $a-bi$
+
+Synthetic division:
+$\frac{P(x)}{D(x)}$
+$P(x)=Q(x)D(x)+R(x)$\\
+For $P$, take coefficients. when $D$ is $x-a$, take $a$ to the right\\
+\begin{tabular}{c c c c | c}
+$p_3$ & $p_2$ & $p_1$ & $p_0$ & $a$\\
+ & $p_3\dot a$ & & & \\
+\hline
+$p_3$ & $p_2+p_3\dot a$ & & & \\
+\end{tabular}\\
+\begin{tabular}{c c c c | c}
+$p_3$ & $p_2$ & $p_1$ & $p_0$ & $a$\\
+ & $p_3\dot a$ & $q_1\dot a$ & & \\
+\hline
+$p_3$ & $q_1$ & $p_1+q_1\dot a$ & $\star$ &  \\
+\end{tabular}\\
+keep going, when all exhausted, last value (at $\star$) is your remainder
+
+Complete squares
+
+Even: $f(-x)=f(x)$ is even, $f(-x)=-f(x)$ is odd
+
+Rational funcs: check denom ALWAYS
+
+
+EXP:
+$\log_a{x}=\frac{\log_b{x}}{\log_b{a}}$
+$\log_a{xy}=\log_a{x}+\log_a{y}$
+$\log{\frac{x}{y}}=\log{x}-\log{y}$
+$\log{x^y}=y\log{x}$
+$\log_a{x}=y\Rightarrow a^y=x$
+
+SLANT asymptotes:
+eqn gotten from long division (ignore remainder)
+
+TRIG: todo
+
+\end{document}
