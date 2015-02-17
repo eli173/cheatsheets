@@ -3,5 +3,35 @@
 * Algebra I
 * Geometry
 * Algebra II
+** 1st Semester
+   Solving and graphing inequalities,
+   equations of a line (pt-slope, standard..),
+   distributive property,
+   factoring quadratics, cubics
+   difference of two squares, cubes,
+   simplifying,
+   exponents and roots
+   word probs
+   sys. of lin. eqns.
 * Precalculus/Triginometry
+** 2nd Semester
+*** Polynomials
+    root finding,
+    factoring,
+    even/odd,
+    degree,
+    graphing/interpreting
+*** Triginoometry
+    Identities and assoc. manipulation
+    unit circle
+    simplification
+    interpretation
+    converting angles
 * Calculus I
+** Limits
+   limits of compound exprs
+   limit existence
+   interp. graphs
+   multiplying by conjugates
+   other rearrangement techniques
+* ACT
